@@ -1,6 +1,6 @@
 const express = require("express");
 const asyncHandler = require("express-async-handler");
-const Flashcard = require("../models/flashcard");
+const Flashcard = require("../Models/flashcard");
 
 const getFlashcards = asyncHandler(async (req, res) => {
   try {

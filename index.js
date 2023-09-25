@@ -6,7 +6,7 @@ const validateToken = require("./middleware/validate");
 require("dotenv").config();
 
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 app.use(express.json());
 app.use("/", userRoutes);
 app.use("/api/v1/flashcards", cardRoutes);
